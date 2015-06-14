@@ -23,9 +23,13 @@ body {
 a {
     text-decoration: none;
     color: black;
+}
+
+a.me {
     position: fixed;
-    right: 0;
-    bottom: 0;
+    right: 5px;
+    bottom: 5px;
+    background-color: white;
 }
 
 a:hover {
@@ -42,7 +46,6 @@ img {
     left: 0;
     bottom: 0;
 }
-
 
 .yes {
     background-image: url('/images/Flag_of_the_United_States.svg');
@@ -71,5 +74,6 @@ img {
 }
 
 .no {
-
+    text-align: center;
+    font: 200px "Impact";
 }
